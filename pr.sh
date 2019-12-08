@@ -3,7 +3,7 @@ echo $string
 
 git checkout -b $string
 
-echo $string > temp/$string
+echo $string > /temp/$string
 
 git status
 
