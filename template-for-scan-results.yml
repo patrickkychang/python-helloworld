@@ -1,5 +1,0 @@
-#Please enter template for scan results 
-header_Template : "############## Validation Results ################\n---------------------------------------------------\n"
-content_Template : "File Name : {FileName} \n Severity : {Severity}\n Rule : {Rule}\n------------------------------------------------\n"
-issues_title_Template : "Vulnerabilities Found : {NumberOfVulnerability}"
-checks_title_Template : "Vulnerabilities Found : {NumberOfVulnerability}"
