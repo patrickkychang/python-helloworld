@@ -1,0 +1,12 @@
+prismaScanUrl : 'https://scanapi.redlock.io/v1/iac'
+accessToken: ''
+failureCriteriaForCreatingChecks:
+  high: 1
+  medium: 1
+  low: 1
+  operator: or
+failureCriteriaForCreatingIssues:
+  high: 1
+  medium: 1
+  low: 1
+  operator: and
