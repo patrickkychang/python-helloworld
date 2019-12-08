@@ -4,7 +4,7 @@ failureCriteriaForCreatingChecks:
   high: 1
   medium: 1
   low: 1
-  operator: or
+  operator: or 
 failureCriteriaForCreatingIssues:
   high: 1
   medium: 1
