@@ -5,7 +5,9 @@ git checkout -b $string
 
 mkdir -p temp
 
-echo sample.tf > temp/$string
+# echo sample.tf > temp/$string
+
+cp sample.tf temp/$string
 
 git status
 
