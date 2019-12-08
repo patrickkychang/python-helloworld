@@ -5,7 +5,7 @@ git checkout -b $string
 
 mkdir -p temp
 
-echo $string > /temp/$string
+echo $string > temp/$string
 
 git status
 
