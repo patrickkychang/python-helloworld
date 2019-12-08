@@ -3,11 +3,11 @@ echo $string
 
 git checkout -b $string
 
-echo $string > $string
+echo $string > temp/$string
 
 git status
 
-git add $string
+git add .
 
 git commit -m "Adding a test file to new_branch"
 
