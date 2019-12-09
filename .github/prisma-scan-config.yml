@@ -1,10 +1,17 @@
-prismaScanUrl : 'https://scanapi.redlock.io/v1/iac'
-accessToken: ''
+# Host url retreived from logging into Prisma Cloud application
+prisma-host : 'https://api-kratfd79.castles.prismacloud.io'
+
+# --Authentication--
+# Create a new Access Token by navigating to Settings > Access Keys. Copy the credentials below
+access-token: '3ec5de48-8ecc-4c53-90f8-2abffc840db4'
+secret: 'R+K4oHVyXpHKUq5cVd3WFi+aAzs='
+
 failureCriteriaForCreatingChecks:
   high: 1
   medium: 1
   low: 1
   operator: or 
+
 failureCriteriaForCreatingIssues:
   high: 1
   medium: 1
