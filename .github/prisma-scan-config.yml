@@ -1,9 +1,9 @@
 # Host url retreived from logging into Prisma Cloud application
-prismahost: 'https://api-kratcce2.castles.prismacloud.io'
+prisma_api_host: 'https://api-kratcce2.castles.prismacloud.io'
 
 # --Authentication--
 # Create a new Access Token by navigating to Settings > Access Keys. Copy the credentials below
-accesstoken: '3ec5de48-8ecc-4c53-90f8-2abffc840db4'
+access_token: '3ec5de48-8ecc-4c53-90f8-2abffc840db4'
 secret: 'R+K4oHVyXpHKUq5cVd3WFi+aAzs='
 
 failureCriteriaForCreatingChecks:
