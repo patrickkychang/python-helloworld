@@ -1,5 +1,5 @@
 # Host url retreived from logging into Prisma Cloud application
-prismahost: 'https://api-kratfd79.castles.prismacloud.io'
+prismahost: 'https://api-kratcce2.castles.prismacloud.io'
 
 # --Authentication--
 # Create a new Access Token by navigating to Settings > Access Keys. Copy the credentials below
