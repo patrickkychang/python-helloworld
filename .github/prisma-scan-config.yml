@@ -1,4 +1,7 @@
-# Host url retreived from logging into Prisma Cloud application
+# Prisma IaC Scan Config file. 
+# Please update with the respective environment values and commit to master branch under the .github folder before performing scans
+
+# API url retreived from logging into Prisma Cloud application
 prisma_api_host: 'https://api-kratcce2.castles.prismacloud.io'
 
 # --Authentication--
@@ -6,13 +9,15 @@ prisma_api_host: 'https://api-kratcce2.castles.prismacloud.io'
 access_token: '3ec5de48-8ecc-4c53-90f8-2abffc840db4'
 secret: 'R+K4oHVyXpHKUq5cVd3WFi+aAzs='
 
-failureCriteriaForCreatingChecks:
+# Define the failure criteria for creating checks. If the criteria matches a check will be created. The template for the checks can be customized in the "/.github/prisma-template-for-scan-results" file.
+failure_criteria_for_creating_checks:
   high: 1
   medium: 1
   low: 1
   operator: or 
 
-failureCriteriaForCreatingIssues:
+# Define the failure criteria for creating issues. If the criteria matches an issue will be created. The template for issues can be customized in the "/.github/prisma-template-for-scan-results" file.
+failure_criteria_for_creating_issues:
   high: 1
   medium: 1
   low: 1
