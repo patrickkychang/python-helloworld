@@ -6,8 +6,8 @@ prisma_api_host: 'https://api-kratcce2.castles.prismacloud.io'
 
 # --Authentication--
 # Create a new Access Token by navigating to Settings > Access Keys. Copy the credentials below
-access_token: '3ec5de48-8ecc-4c53-90f8-2abffc840db4'
-secret: 'R+K4oHVyXpHKUq5cVd3WFi+aAzs='
+access_token: '3ec5de48-8ecc-4c53-90f8-2abffc345sefs'
+secret: 'R+K4oHVyXpHKUasfasfWFi+aAzs='
 
 # Define the failure criteria for creating checks. If the criteria matches a check will be created. The template for the checks can be customized in the "/.github/prisma-template-for-scan-results" file.
 failure_criteria_for_creating_checks:
