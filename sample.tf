@@ -34,7 +34,7 @@
               }
             ],
             "securityContext": {
-              "runAsNonRoot": false,
+              "runAsNonRoot": true,
               "runAsUser": 10001,
               "capabilities": {
                 "drop": [
@@ -44,7 +44,7 @@
                   "NET_BIND_SERVICE"
                 ]
               },
-              "readOnlyRootFilesystem": true
+              "readOnlyRootFilesystem": false
             }
           }
         ]
