@@ -34,7 +34,7 @@
               }
             ],
             "securityContext": {
-              "runAsNonRoot": true,
+              "runAsNonRoot": false,
               "runAsUser": 10001,
               "capabilities": {
                 "drop": [
